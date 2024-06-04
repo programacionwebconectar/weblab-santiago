@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(127, 123, 196);
+}
+
+.cuadrado {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(13, 255, 0);
+}
+
+.cuadrado:hover {
+    transform: rotate(120deg) scale(2);
+    background-color: rgb(30, 0, 255);
+    transition: all 2s;
+}
+
+.circulo {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+}
+
+.circulo:hover {
+    transform: translatey(50px);
+    background-color: rgb(236, 255, 127);
+    transition: all 2s;
+}
+
+.close {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 204, 0);
+    clip-path: polygon(20% 0%, 0% 20%, 100% 53%, 0% 80%, 20% 100%, 53% 0, 80% 100%, 100% 80%, 0 51%, 100% 20%, 80% 0%, 53% 100%);
+ transition: all 2s;
+}
+
+.close:hover{
+transform: rotate(1000deg) scale(0.2);
+background-color: rgb(0, 200, 255);
+}
